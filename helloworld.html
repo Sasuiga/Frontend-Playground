@@ -22,9 +22,49 @@
     </head>
     <body>
         <h1>这是一个学习前端知识的乐园的一级标题</h1>
+        <form action="/submit-form" method="post" name="这是一个测试表单">
+            <label for="username">用户名：</label>
+            <input type="text" id="username" name="username" value="我就试一试这个属性的效果"><br><br>
+    
+            <label for="password">密码：</label>
+            <input type="password" id="password" name="password"><br><br>
+    
+            <input type="submit" value="提交">
+        </form>
+        <textarea rows="4" cols="50" name="comment">
+            请在此处输入您的评论...
+        </textarea>
         <p>测试加粗<strong>加粗</strong>和<b>加粗</b>的区别</p>
+        <form>
+            <label for="username2">用户名：</label>
+            <input type="text" id="username2" name="username"><br><br>
+    
+            <label for="password2">密码：</label>
+            <input type="password" id="password2" name="password"><br><br>
+    
+            <label for="remember">记住我：</label>
+            <input type="checkbox" id="remember" name="remember"><br><br>
+    
+            <input type="submit" value="提交">
+        </form>
         <p>测试斜体<em>斜体</em>和<i>斜体</i>的区别</p>
+        <select name="fruits" multiple size="2">
+            <option value="apple">苹果</option>
+            <option value="banana">香蕉</option>
+            <option value="orange">橙子</option>
+            <option value="grape">葡萄</option>
+        </select>
         <p>测试引用<cite>引用</cite>和<q>引用</q>的区别</p>
+        <select name="colors">
+            <optgroup label="红">
+                <option value="red">红色</option>
+                <option value="maroon">褐红色</option>
+            </optgroup>
+            <optgroup label="绿">
+                <option value="green">绿色</option>
+                <option value="lime">酸橙色</option>
+            </optgroup>
+        </select>
         <p>测试<blockquote>这是一段block引用</blockquote>和<q>引用</q>的区别</p>
         <ol type="A" start="3">
             <li>第三项（标记为D）</li>
